@@ -46,9 +46,39 @@ This project visualizes population data of New Zealand using interactive and sta
 - Advanced choropleth maps using log-transformed population data.  
 - Customizable color palettes for enhanced visualization.
 
-## Output
-- Interactive HTML maps.  
-- Static PNG images of visualizations.  
-- Combined dataset showing geospatial and population data.  
+ ## Types of Maps Created
+
+This project includes various types of maps to visualize population data in New Zealand:
+
+### 1. Basic Map
+- A simple map centered on New Zealand.
+- Allows zooming and panning to explore the region.
+
+### 2. Marker Map
+- Displays markers for major cities (Auckland, Wellington, Christchurch).
+- Includes popups showing the city name and population.
+
+### 3. Heatmap
+- Visualizes population density using a heatmap.
+- Brighter or more intense colors represent higher populations.
+
+### 4. Black-and-White Map
+- A basic map showing New Zealand territories with black borders and a white background.
+
+### 5. Choropleth Map
+- A color-coded map showing population data for each territory.
+- Different colors represent varying population sizes.
+
+### 6. Advanced Choropleth Map
+- An improved version of the choropleth map.
+- Uses log-transformed population data for better comparison across regions.
+- Includes a gradient color scale and detailed titles.
+
+### 7. Interactive Choropleth Map
+- An interactive version of the choropleth map created using `plotly`.
+- Users can hover over regions to view population data and zoom or pan for exploration.
+
+These maps offer both static and interactive ways to analyze New Zealand's population distribution.
+
 
 
